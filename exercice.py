@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-def majuscule(mot):
+def majuscule(bonjour):
     resultat = ''
     for lettre in mot:
         # TODO completer la fonction ici
@@ -22,4 +22,4 @@ if __name__ == '__main__':
     for i in range(len(mots)):
         mots[i] = majuscule(mots[i])
 
-    print(mots)
+    print(majuscule('bonjour'))
